@@ -10,7 +10,7 @@ const projectsData = [
     title: "HireHunt",
     description: "A full stack job portal including client side",
     image: "/images/projects/hirehunt.png",
-    tag: ["All", "Full stack"],
+    tag: ["All", "Web"],
     gitUrl: "https://github.com/immortalAbdul01/HireHunt",
     previewUrl: "https://www.figma.com/design/jI70JKRVmtJ54PyeDJshCq/nike?m=auto&t=s1Juj9hlBQ0tzAhA-6",
   },
@@ -28,7 +28,7 @@ const projectsData = [
     title: "Seamless AWS CI/CD Pipeline with AWS Services",
     description: "A streamlined AWS-based CI/CD pipeline to enhance software development and deployment.",
     image: "/images/projects/aws.png",
-    tag: ["All", "Web"],
+    tag: ["All", "DevOps"],
     gitUrl: "https://devops0to1.hashnode.dev/creating-a-seamless-aws-cicd-pipeline-with-aws-services",
     previewUrl: "https://www.figma.com/design/pihJP5JjpJ7z5N3LJbLYXO/dshboard?m=auto&t=s1Juj9hlBQ0tzAhA-6",
  },
@@ -106,8 +106,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="DevOps"
+          isSelected={tag === "DevOps"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
