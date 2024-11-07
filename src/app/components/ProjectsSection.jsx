@@ -39,7 +39,16 @@ const projectsData = [
     tag: ["All", "DevOps"],
     gitUrl: "https://devops0to1.hashnode.dev/creating-a-seamless-aws-cicd-pipeline-with-aws-services",
     previewUrl: "https://devops0to1.hashnode.dev/creating-a-seamless-aws-cicd-pipeline-with-aws-services",
- },
+	},
+  {
+    id: 5,
+    title: "AWS Lift and Shift Project",
+    description: "The project's primary goal is to move our existing on-premises application to the AWS cloud while retaining the core structure of our application, its data, and its functionality.",
+    image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1698732256640/07233fbc-60a5-452a-8b05-adfcd4d4cbf8.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+    tag: ["All", "DevOps"],
+    gitUrl: "https://devops0to1.hashnode.dev/aws-lift-and-shift-project",
+    previewUrl: "https://devops0to1.hashnode.dev/aws-lift-and-shift-project",
+  }
 //   {
 //     id: 4,
 //     title: "smart home app",
